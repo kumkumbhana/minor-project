@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Made easy library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header> 
+    <nav><div class="nav">
+        <img src="minor project logo.jpg">
+        <form action="blank" method="GET" class="form"> 
+            <input type="text" placeholder="search by Book Name or by Author Name"
+            name="search" class="search-field"/>
+            <button type="submit" class="search-button"><img src="search.png">
+            </button>
+        </form>
+        <div class="menu-right">
+            <span onclick="myFunction()">&#9776;</span>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">More</a></li>
+                <li><a href="#">Login</a></li>
+             </ul>
+        </div>
+    </div>
+   </nav> 
+</header> 
+    <script>
+        function myFunction(){
+            var x = document.getElementById("menu");
+
+            if(x.style.display == "block"){
+                x.style.display = "none";
+            }
+            else{
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
