@@ -42,6 +42,10 @@ span{
     ul{
         display: none;
     }
+        .search-button{
+        max-resolution: 3px;
+    }
+}
 }
 
 .form{
